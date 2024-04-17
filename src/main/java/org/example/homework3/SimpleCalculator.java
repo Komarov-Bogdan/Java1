@@ -5,19 +5,15 @@ public class SimpleCalculator
     public static void main(String[] args)
     {
         int a = 7;
-        double b = 19;
+        int b = 19;
         //sum
-        double sum = a + b;
-        System.out.println("Sum is: " + sum );
+        System.out.println("Sum is: " + (a + b) );
         //subtraction
-        double subtraction = a - b;
-        System.out.println("Subtraction is: " + subtraction );
+        System.out.println("Subtraction is: " + (a - b) );
         //multiplication
-        double multiplication = a * b;
-        System.out.println("Multiplication is: " + multiplication );
+        System.out.println("Multiplication is: " + (a * b) );
         //division
-        double division = a / b;
-        System.out.println("Division is: " + division );
+        System.out.println("Division is: " + (a / (double) b) );
 
     }
 }
