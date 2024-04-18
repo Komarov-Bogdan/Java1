@@ -4,7 +4,7 @@ public class SimpleCalculator
 {
     public static void main(String[] args)
     {
-        int a = 7;
+        int a = -7;
         int b = 19;
         //sum
         System.out.println("Sum is: " + (a + b) );
